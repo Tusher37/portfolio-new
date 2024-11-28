@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    /* Act as border */
+    .card-wrapper {
+      @apply relative bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl overflow-hidden
+    }
+  
+    /* Gradient */
+    .card-wrapper::before {
+      background: conic-gradient(
+        rgba(244, 144, 182, 0.903) 0deg,
+        rgba(192, 132, 252, 0.805) 90deg,
+        transparent 120deg
+      );
+      @apply absolute  h-[100%] w-[150%] content-[''] -left-[25%] -right-[25%] animate-border-spin;
+    }
+  
+    /* Body */
+    .card-content {
+      @apply relative w-[calc(100%-4px)] h-[calc(100%-4px)] top-[2px] left-[2px] bg-gradient-to-b from-slate-800 to-slate-900 rounded-2xl
+    }
+  }
+
+/* In your CSS file or a <style> tag */
+@keyframes borderAnimation {
+  0% {
+    border-color: #3490dc; /* Blue */
+  }
+  50% {
+    border-color: #38c172; /* Green */
+  }
+  100% {
+    border-color: #e3342f; /* Red */
+  }
+}
+
+.animated-border {
+  animation: borderAnimation 3s infinite; /* 3-second loop */
+  border-width: 4px;
+  border-style: solid;
+}
