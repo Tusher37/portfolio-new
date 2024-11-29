@@ -48,7 +48,7 @@ const Home = () => {
                 <div className="flex flex-row gap-3 justify-between">
                     <div className="flex space-x-7 items-center h-[150px]">
                             <a 
-                                href="/public/Tusher Debnath.pdf"
+                                href="/Tusher Debnath.pdf"
                                 download='Tusher Debnath.pdf'
                             >
                                     <button className="flex gap-2 px-4 py-2 h-10 border-2 border-blue-500 text-blue-500 rounded transition duration-300 hover:bg-red-500 hover:text-white transform hover:scale-105">
