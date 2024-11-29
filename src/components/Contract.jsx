@@ -1,4 +1,9 @@
 import React from 'react';
+import email from '../assets/envelope-regular.svg';
+import linkedIn from '../assets/linkedin-brands-solid.svg';
+import gitHub from '../assets/github-brands-solid.svg';
+import facebook from '../assets/facebook-brands-solid.svg';
+import instagram from '../assets/instagram-brands-solid.svg';
 
 const Contract = () => {
     return (
@@ -35,19 +40,19 @@ const Contract = () => {
                             <div className=''>
                                 <div className='h-full w-[100px] rounded-xl bg-white text-black p-3 flex flex-col-reverse gap-3'>
                                     <div>
-                                        <a href="https://www.instagram.com/tusher_deb.nath/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src="/src/assets/instagram-brands-solid.svg" alt="" /></a>
+                                        <a href="https://www.instagram.com/tusher_deb.nath/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src={instagram} alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="https://www.facebook.com/tusher.nath.37/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src="/src/assets/facebook-brands-solid.svg" alt="" /></a>
+                                        <a href="https://www.facebook.com/tusher.nath.37/" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src={facebook} alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="https://github.com/Tusher37" target="_blank"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src="/src/assets/github-brands-solid.svg" alt="" /></a>
+                                        <a href="https://github.com/Tusher37" target="_blank"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src={gitHub} alt="" /></a>
                                     </div>
                                     <div>
-                                        <a href="https://www.linkedin.com/in/tusherdebnath" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src="/src/assets/linkedin-brands-solid.svg" alt="" /></a>
+                                        <a href="https://www.linkedin.com/in/tusherdebnath" target="_blank" rel="noopener noreferrer"><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src={linkedIn} alt="" /></a>
                                     </div>
                                     <div>                           
-                                        <a href='mailto:ttusherdebnath@gmail.com'><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src="/src/assets/envelope-regular.svg" alt="" /></a>
+                                        <a href='mailto:ttusherdebnath@gmail.com'><img className='bg-white rounded-lg shadow-md hover:shadow-3xl hover:scale-105 transition duration-300' src={email} alt="" /></a>
                                     </div>
                                 </div>
                             </div>

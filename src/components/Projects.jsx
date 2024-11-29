@@ -6,7 +6,7 @@ const Projects = () => {
         <div>
             <h1 className="text-4xl text-indigo-500 font-semibold text-center m-12 pt-11">Some Of My Recent Projects</h1>
             <div className="flex gap-5 justify-center">
-                <div className="card-wrapper w-[410px] text-center justify-center">
+                <div className="card-wrapper w-[410px] text-center justify-center shadow-md hover:shadow-3xl hover:scale-105 transition duration-300">
                     <div className="card-content h-[300px] w-[400px]">
                         <p className="text-2xl font-semibold">Book Store</p>
                         <p className="text-sm">(React, Tailwind CSS)</p>
@@ -22,7 +22,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card-wrapper w-[410px] text-center justify-center">
+                <div className="card-wrapper w-[410px] text-center justify-center shadow-md hover:shadow-3xl hover:scale-105 transition duration-300">
                     <div className="card-content h-[300px] w-[400px]">
                         <p className="text-2xl font-semibold">Online Bus Ticket Booking</p>
                         <p className="text-sm">(JavaScript, Tailwind CSS)</p>
@@ -38,7 +38,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card-wrapper w-[410px] text-center justify-center">
+                <div className="card-wrapper w-[410px] text-center justify-center shadow-md hover:shadow-3xl hover:scale-105 transition duration-300">
                     <div className="card-content h-[300px] w-[400px]">
                         <p className="text-2xl font-semibold">Online Kitchen Class Menu</p>
                         <p className="text-sm">(React, Tailwind CSS)</p>
