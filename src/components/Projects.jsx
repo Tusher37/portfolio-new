@@ -12,7 +12,7 @@ const Projects = () => {
                         <p className="text-sm">(React, Tailwind CSS)</p>
                         <div className="p-5">
                             <div className="h-[200px]">
-                                <p className="text-lg font-extralight text-justify">In this dummy app I have used React JS with Tailwind CSS to create a user friendly website. Also implement the locatstorage part to save the readed book list and show it in the graph</p>
+                                <p className="text-lg font-extralight text-justify">In this dummy book store app. I have used React JS with Tailwind CSS to create a user friendly book store website. Tailwind CSS is used for integrate the frontend part and React is used to handle the state management. Also implement the locatstorage part to save the readed book list and show it in the graph.</p>
                             </div>
                             <div>
                                 <a href="https://github.com/Tusher37/online-book" target="_blank" rel="noopener noreferrer"><u>Source Code</u> </a>
@@ -28,7 +28,7 @@ const Projects = () => {
                         <p className="text-sm">(JavaScript, Tailwind CSS)</p>
                         <div className="p-5">
                             <div className="h-[200px]">
-                                <p className="text-lg font-extralight text-justify">In this dummy app I have used React JS with Tailwind CSS to create a user friendly website. Tailwind CSS is used for integrate the frontend part and React is used to handle the state management. Also implement the locatstorage part to save the readed book list and show it in the graph</p>
+                                <p className="text-lg font-extralight text-justify">In this app I have used Vsnills JS with Tailwind CSS to show a online bus ticket booking process. In this project mainly focused on dom manipulation using Vsnills JS and worked on frontend design part.</p>
                             </div>
                             <div>
                                 <a href="https://github.com/Tusher37/b9a5" target="_blank" rel="noopener noreferrer"><u>Source Code</u> </a>
@@ -44,7 +44,7 @@ const Projects = () => {
                         <p className="text-sm">(React, Tailwind CSS)</p>
                         <div className="p-5">
                             <div className="h-[200px]">
-                                <p className="text-lg font-extralight text-justify">In this dummy app I have used React JS with Tailwind CSS to create a user friendly website. Tailwind CSS is used for integrate the frontend part and React is used to handle the state management.</p>
+                                <p className="text-lg font-extralight text-justify">This is a Chef's kitchen class menu project. I have used React JS with Tailwind CSS to create a user friendly website. Tailwind CSS is used for integrate the frontend part and React is used to handle the state management.</p>
                             </div>
                             <div>
                                 <a href="https://github.com/Tusher37/Online-Chefs-table-menu" target="_blank" rel="noopener noreferrer"><u>Source Code</u> </a>
