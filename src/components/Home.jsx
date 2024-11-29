@@ -6,21 +6,20 @@ import resumeDown from '../assets/down.png';
 import location from '../assets/location.gif';
 import bdFlag from '../assets/bangladesh_flag_lottie_json_animation_800.gif';
 const Home = () => {
-    // const u = `https://ibb.co.com/dL2yYQg`;
     return (
         
             <div id="home" className='m-6 grid grid-cols-1 gap-1 h-[500px] w-[90vw] items-center justify-center bg-slate-950 text-white'>
-                <div className="flex justify-between pt-10">
-                    <div className="card-wrapper h-[250px] w-[950px]">
-                        <div className="card-content flex gap-10 pl-4 pr-4  items-center justify-around text-xs">
-                            <div className="w-[500px]">
+                <div className="flex flex-col lg:flex-row justify-center lg:justify-between pt-10">
+                    <div className="card-wrapper h[600px] lg:h-[250px] w-[350px] lg:w-[950px]">
+                        <div className="card-content flex flex-col lg:flex-row gap-5 lg:gap-10 pl-1 lg:pl-4 pr-1 lg:pr-4  items-center justify-around text-xs">
+                            <div className="w-[300px] lg:w-[500px]">
                                 <div className="flex">
                                     <p className="text-5xl text-red-400 font-semibold pb-1">Hi...</p>
                                     <img src={handWave} alt="" />
                                 </div>
                                 <p className="text-4xl text-end text-indigo-400 font-semibold pb-1">I'm Tusher Debnath</p>
                             </div>
-                            <div className="">
+                            <div className="m-5">
                                 <div className="flex gap-1 pb-5">
                                     <p className="text-3xl text-amber-100 pt-5">|  Web Developer </p>
                                     <img className="h-[100px] w-[100px]" src={webImg} alt="" />
@@ -32,16 +31,14 @@ const Home = () => {
                                 <div className="flex gap-4">
                                     <p className="text-3xl text-amber-100 pt-5">| Tech Enthusiast</p>
                                     <img className="h-[80px] w-[90px]" src={techImg} alt="" />
-                                </div>
-                                
-                                
+                                </div>                                
                                 
                             </div>                   
                         </div>
                     </div> 
                     <div className="flex space-x-4 gap-8  h-[250px]">
                         <div className="card-wrapper h-[250px] rounded-xl">
-                            <img className="card-content h-[250px] w-[270px] rounded-xl" src={myPic} alt="" />
+                            <img className="card-content h-[250px] w-[350px] lg:w-[270px] rounded-xl" src={myPic} alt="" />
                         </div>   
                     </div> 
                 </div>
